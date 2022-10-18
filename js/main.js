@@ -41,17 +41,12 @@ for(var i = 0; i < pacientes.length ; i++) {
     }
 };
 
-function montaTD(dado, classe) {
+function criarTd(dado, classe) {
 	var td = document.createElement("td");
 	td.textContent = dado;
 	td.classList.add(classe);
+    return td;
 };
-
-function novoTd(x) {
-    var novoTd = document.createElement("td");
-    novoTd.textContent = x;
-
-}
 
 function calcImc(peso, altura) {
     var imc = 0;

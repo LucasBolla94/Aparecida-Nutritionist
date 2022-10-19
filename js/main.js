@@ -35,9 +35,6 @@ for(var i = 0; i < pacientes.length ; i++) {
     if ( validaPeso && validaAltura) {
         var imc = peso / (altura * altura);
         tdImc.textContent = imc.toFixed(2);
-        tdImc.style.backgroundColor = 'lightgreen';
-        tdImc.style.border = '1px black solid';
-        tdImc.style.fontWeight = 600;
     }
 };
 

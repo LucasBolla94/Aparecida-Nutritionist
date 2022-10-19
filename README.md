@@ -1,10 +1,7 @@
-::::::::::::::::::: Projeto Aparecida Nutricionista ::::::::::::::::::::::::::
+::::::::::::::::::: Project Nutritionist ::::::::::::::::::::::::::
 
-;;;;;;;;;;;;;;; HTML / CSS com Interação em JavaScript ;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;; HTML / CSS and JavaScript ;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;; 1 - Capturar Dados do HTML com JavaScript ;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;; STANDING BRANCH ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;; 18/10/2022  - 08:03 - (Melhorando Funções) ;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; 1 - Get Data from HTML page.
+; 2 - Add news customers and calculate IMC.
+; 3 - Remove customers inside the table. * Use doble click *

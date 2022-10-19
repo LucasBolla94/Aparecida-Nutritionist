@@ -16,6 +16,8 @@ function adicionar(event) {
 
     console.log(ObtemDadosPaciente(form));
 
+    form.reset();
+
 }
 
 function ObtemDadosPaciente(form) {

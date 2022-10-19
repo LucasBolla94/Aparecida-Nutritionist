@@ -138,3 +138,26 @@ button[disabled=disabled], button:disabled {
 	background-color: lightgreen;
 	border: 1px black solid;
 }
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.info-peso::after {
+	font-size: 10px;
+	font-weight: bold;
+	content: " KG's";
+}
+
+.info-altura::after {
+	font-size: 13px;
+	font-weight: bold;
+	content: " m";
+}
+
+.info-gordura::after {
+	font-size: 13px;
+	font-weight: bold;
+	content: " %";
+}

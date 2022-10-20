@@ -161,3 +161,13 @@ button[disabled=disabled], button:disabled {
 	font-weight: bold;
 	content: " %";
 }
+
+.pesq {
+	margin-bottom: 10px;
+	width: 140px;
+	height: 25px;
+}
+
+.pesq1 {
+	display: none;
+}

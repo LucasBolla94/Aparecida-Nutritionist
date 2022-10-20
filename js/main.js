@@ -52,3 +52,29 @@ function calcImc(peso, altura) {
 
     return imc.toFixed(2);
 };
+
+
+// Search inside Table
+
+var searchIpt = document.querySelector(".pesq");
+
+searchIpt.addEventListener("input", function(){
+    if(searchIpt.value.length > 0 ) {
+        var nomes = document.querySelectorAll(".info-nome");
+        for (var i = 0; i < nomes.length; i++){
+            var nome = nomes[i].textContent;
+            var exp = new RegExp(this.value,"i");
+            if(!exp.test(nome)) {
+                nomes[i].parentNode.classList.add("pesq1");
+            }else{
+                nomes[i].parentNode.classList.remove("pesq1");
+            }
+        }
+    }else{
+        var nomes = document.querySelectorAll(".info-nome");
+        for(var i = 0; i < nomes.length; i++){
+            nomes[i].parentNode.classList.remove("pesq1");
+        }
+    }
+    
+});

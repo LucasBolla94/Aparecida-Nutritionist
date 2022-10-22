@@ -171,3 +171,7 @@ button[disabled=disabled], button:disabled {
 .pesq1 {
 	display: none;
 }
+
+.tittle::after {
+	content: " Nutritionist";
+}
